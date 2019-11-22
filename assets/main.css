@@ -1,0 +1,60 @@
+body {
+  background-color:black;
+  padding: 0px;
+  /* margin: 50px; */
+  font-family: Helvetica;
+}
+
+
+
+.black_rec1 {
+  background-color: white;
+  height: 100px;
+  width: 10px;
+  position:absolute;
+  top: 5vh;
+}
+
+button {
+  border: none;
+}
+
+.black_rec2 {
+  animation: loop 2s linear infinite;
+  background-color: white;
+  height: 100px;
+  width: 10px;
+  position:absolute;
+  top: 20vh;
+
+}
+
+@keyframes loop {
+  0%, 100% {
+    left: 0;
+  }
+  50% {
+    left: 200px;
+  }
+}
+
+#black_rec3 {
+  background-color: white;
+  height: 100px;
+  width: 10px;
+  position:absolute;
+  top: 50vh;
+}
+
+#rec {
+  position: absolute;
+  top: 40vh;
+}
+
+.square{
+	width: 10px;
+	margin: 20px;
+	height: 200px;
+	display: inline-block;
+	background-color: white;
+}
