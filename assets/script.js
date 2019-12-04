@@ -70,13 +70,7 @@ var cylinder = new THREE.Mesh( geometry, material );
 scene.add( cylinder );
 
 
-function render() {
-	requestAnimationFrame(render);
-    // cylinder.rotation.x += 0.01;
-  	// cylinder.rotation.y += 0.1;
-	renderer.render(scene, camera);
-}
-render();
+
 
 
 //cylinder3 - mesh
@@ -99,7 +93,13 @@ var material = new THREE.MeshBasicMaterial( {
 var cylinder = new THREE.Mesh( geometry, material );
 scene.add( cylinder );
 
-
+function render() {
+	requestAnimationFrame(render);
+    // cylinder.rotation.x += 0.01;
+  	cylinder.rotation.y += 0.00001;
+	renderer.render(scene, camera);
+}
+render();
 
 
 
