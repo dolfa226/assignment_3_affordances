@@ -96,7 +96,7 @@ scene.add( cylinder );
 function render() {
 	requestAnimationFrame(render);
     // cylinder.rotation.x += 0.01;
-  	cylinder.rotation.y += 0.00001;
+  	cylinder.rotation.y += 0.0001;
 	renderer.render(scene, camera);
 }
 render();
