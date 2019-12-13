@@ -182,6 +182,7 @@ function render() {
 	localStorage.setItem('rotation', "" + cylinder4.rotation.y)
 
 	renderer.render(scene, camera);
+		// localStorage.clear();
 }
 render();
 
